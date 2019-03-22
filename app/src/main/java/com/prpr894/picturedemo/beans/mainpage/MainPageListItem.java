@@ -8,7 +8,7 @@ import com.github.florent37.retrojsoup.annotations.JsoupText;
  * Created by florentchampigny on 28/02/2017.
  */
 
-public class MainPageList {
+public class MainPageListItem {
 
     @JsoupText(".caption a")
     public String title;
@@ -22,7 +22,7 @@ public class MainPageList {
     @JsoupText(".caption p span")
     public String category;
 
-    public MainPageList() {
+    public MainPageListItem() {
     }
 
     @Override

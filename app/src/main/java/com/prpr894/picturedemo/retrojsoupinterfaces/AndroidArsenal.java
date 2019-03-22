@@ -1,7 +1,7 @@
 package com.prpr894.picturedemo.retrojsoupinterfaces;
 
 import com.github.florent37.retrojsoup.annotations.Select;
-import com.prpr894.picturedemo.beans.mainpage.MainPageList;
+import com.prpr894.picturedemo.beans.mainpage.MainPageListItem;
 
 import io.reactivex.Observable;
 
@@ -12,6 +12,6 @@ import io.reactivex.Observable;
 public interface AndroidArsenal {
 
     @Select(".col-xs-6 .thumbnail")
-    Observable<MainPageList> projects();
+    Observable<MainPageListItem> projects();
 
 }
